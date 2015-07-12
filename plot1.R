@@ -1,6 +1,8 @@
+# NOTE: this assumes household_power_consumption.txt is present in the working directory
+
 source("loadData.R")
 
-png(filename = "plot1.png", width = 504, height = 504, bg = NA)
+png(filename = "plot1.png", width = 504, height = 504, bg = NA, type = "cairo")
 
 data <- loadData()
 
